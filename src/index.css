@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Macondo&display=swap');
+*{
+    font-family: "Macondo", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+body{
+     background-image: linear-gradient(165deg, rgba(182, 42, 180,0.2) 0%, rgba(182, 42, 180,0.2) 16.667%,rgba(167, 1, 166,0.2) 16.667%, rgba(167, 1, 166,0.2) 33.334%,rgba(225, 163, 222,0.2) 33.334%, rgba(225, 163, 222,0.2) 50.001%,rgba(240, 204, 236,0.2) 50.001%, rgba(240, 204, 236,0.2) 66.668%,rgba(211, 123, 208,0.2) 66.668%, rgba(211, 123, 208,0.2) 83.335%,rgba(196, 82, 194,0.2) 83.335%, rgba(196, 82, 194,0.2) 100.002%),linear-gradient(22.5deg, rgba(182, 42, 180,0.2) 0%, rgba(182, 42, 180,0.2) 16.667%,rgba(167, 1, 166,0.2) 16.667%, rgba(167, 1, 166,0.2) 33.334%,rgba(225, 163, 222,0.2) 33.334%, rgba(225, 163, 222,0.2) 50.001%,rgba(240, 204, 236,0.2) 50.001%, rgba(240, 204, 236,0.2) 66.668%,rgba(211, 123, 208,0.2) 66.668%, rgba(211, 123, 208,0.2) 83.335%,rgba(196, 82, 194,0.2) 83.335%, rgba(196, 82, 194,0.2) 100.002%),linear-gradient(157.5deg, rgba(182, 42, 180,0.2) 0%, rgba(182, 42, 180,0.2) 16.667%,rgba(167, 1, 166,0.2) 16.667%, rgba(167, 1, 166,0.2) 33.334%,rgba(225, 163, 222,0.2) 33.334%, rgba(225, 163, 222,0.2) 50.001%,rgba(240, 204, 236,0.2) 50.001%, rgba(240, 204, 236,0.2) 66.668%,rgba(211, 123, 208,0.2) 66.668%, rgba(211, 123, 208,0.2) 83.335%,rgba(196, 82, 194,0.2) 83.335%, rgba(196, 82, 194,0.2) 100.002%),linear-gradient(255deg, rgb(236, 236, 236),rgb(221, 221, 221));;
+}
+.navbar-brand{
+    margin-left: 50%;
+}
+
+.card{
+    border-radius: 10px !important;
+    margin-bottom:10px !important;
+    width:80%;
+    margin-left: 10%;
+    
+}
+.card .img-box{
+   display:flex;
+   justify-content: center;
+   height:8em;
+   margin: 30px auto 0 auto !important;
+   object-fit: scale-down; 
+   
+}
+
+.img-box img{
+    border-radius: 10px !important;
+    width:90%;
+    align-self:center;
+    height:100%;
+}
+
+.card-body{
+    padding-bottom: 50px !important;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    line-break: auto;
+
+}
+
+.col-sm-6{
+    margin-top:1em !important
+}
+.quantity , .price{
+    margin-left: 50%;
+    margin-right: 10px;
+    font-weight: bold;
+}
+.product{
+    background-color: black;
+    color: beige;
+    margin-bottom:50px;
+}
+.navbar{
+    background-color: black;
+    color:white;
+}
