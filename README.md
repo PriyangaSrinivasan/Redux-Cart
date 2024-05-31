@@ -1,4 +1,6 @@
 # React Redux Task
+package I used (npm i react redux @reduxjs/toolkit)
+
 I get JSON data and create a cart page with per item price , per item quantity,
 Total quantity and total amount using useSelector and useDispatch reactredux hooks.
 
